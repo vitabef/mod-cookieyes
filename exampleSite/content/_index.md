@@ -1,7 +1,5 @@
 ---
 title: Test site
-description: Site to test module shortcode(s).
-date: 2023-07-10
+description: Site to test mod-cookieyes.
+date: 2024-09-20
 ---
-
-TODO: placeholder
