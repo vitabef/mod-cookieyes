@@ -2,7 +2,7 @@
 
 <!-- Tagline -->
 <p align="center">
-    <b>A Hugo module to integrate CookieYes with your Hinode site (work in progress)</b>
+    <b>A Hugo module to integrate CookieYes with your Hinode site</b>
     <br />
 </p>
 
