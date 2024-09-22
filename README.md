@@ -47,6 +47,18 @@ This module supports the following parameters (see the section `params.modules` 
 | cookieyes.force           | false   | Trigger to force include the CookieYes scripts, bypassing other settings. Use this setting for debugging and testing only. |
 | cookieyes.id              | false   | ID of your CookieYes banner. See the installation code in the advanced settings of your CookieYes account. The code is available by clicking the button next to the cookie banner status. The `{code}` is defined in the banner code URL in the following pattern: `https://cdn-cookieyes.com/client_data/{code}/script.js`. |
 
+## Installation
+
+Please ensure `mod-cookieyes` is imported before the `hinode` module to ensure the correct script template is initialized. The following snippet illustrates an example configuration for `hugo.toml`.
+
+```toml
+[module]
+  [[module.imports]]
+    path = "github.com/gethinode/mod-cookieyes"
+  [[module.imports]]
+    path = "github.com/gethinode/hinode"
+```
+
 ## Content Security Policy
 
 CookieYes requires several directives to be added to your Content Security Policy. See the [policy requirements][cookieyes_csp] as provided by CookieYes for more details.
