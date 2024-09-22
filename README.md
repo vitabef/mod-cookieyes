@@ -2,7 +2,7 @@
 
 <!-- Tagline -->
 <p align="center">
-    <b>A Hugo module to integrate CookieYes with your Hinode site (work in progress)</b>
+    <b>A Hugo module to integrate CookieYes with your Hinode site</b>
     <br />
 </p>
 
@@ -47,10 +47,15 @@ This module supports the following parameters (see the section `params.modules` 
 | cookieyes.force           | false   | Trigger to force include the CookieYes scripts, bypassing other settings. Use this setting for debugging and testing only. |
 | cookieyes.id              | false   | ID of your CookieYes banner. See the installation code in the advanced settings of your CookieYes account. The code is available by clicking the button next to the cookie banner status. The `{code}` is defined in the banner code URL in the following pattern: `https://cdn-cookieyes.com/client_data/{code}/script.js`. |
 
+## Content Security Policy
+
+CookieYes requires several directives to be added to your Content Security Policy. See the [policy requirements][cookieyes_csp] as provided by CookieYes for more details.
+
 <!-- MARKDOWN LINKS -->
 [hugo]: https://gohugo.io
 [hinode_docs]: https://gethinode.com
 [cookieyes]: https://cookieyes.com/
+[cookieyes_csp]: https://www.cookieyes.com/documentation/content-security-policy/
 [repository]: https://github.com/gethinode/hinode.git
 [repository_template]: https://github.com/gethinode/template.git
 [conventionalcommits]: https://www.conventionalcommits.org
