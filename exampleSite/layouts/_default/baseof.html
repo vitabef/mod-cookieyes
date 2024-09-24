@@ -5,17 +5,6 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
   <title>{{ with .Title }}{{ printf "%s | " . }}{{ end }}{{ site.Title }}</title>
   <link rel=stylesheet href="style.css">
-
-{{- $bundle := partial "utilities/bundle" (dict
-    "match" "{js/critical/*.js}"
-    "filename" "js/main.bundle.js"
-    "basepath" "js"
-    "all" true
-    "debugging" site.Params.debugging.showJS
-) -}}
-
-{{- $js := $bundle | resources.ExecuteAsTemplate "js/critical/cookieyes.js" . -}}
-<script src="{{ $js.RelPermalink }}"></script>
 </head>
 <body>
 {{ block "main" . }}

@@ -44,8 +44,8 @@ This module supports the following parameters (see the section `params.modules` 
 
 | Setting                   | Default | Description |
 |---------------------------|---------|-------------|
-| cookieyes.force           | false   | Trigger to force include the CookieYes scripts, bypassing other settings. Use this setting for debugging and testing only. |
-| cookieyes.id              | false   | ID of your CookieYes banner. See the installation code in the advanced settings of your CookieYes account. The code is available by clicking the button next to the cookie banner status. The `{code}` is defined in the banner code URL in the following pattern: `https://cdn-cookieyes.com/client_data/{code}/script.js`. |
+| cookieyes.local           | false   | Trigger to force include the CookieYes scripts, bypassing other settings. Use this setting for debugging and testing only. |
+| cookieyes.url             |         | Link to your personalized CookieYes script. See the installation code in the advanced settings of your CookieYes account. The code is available by clicking the button next to the cookie banner status. The link has the following pattern: `https://cdn-cookieyes.com/client_data/{installation code}/script.js`. |
 
 ## Installation
 
