@@ -9,3 +9,6 @@
   [[module.mounts]]
     source = 'layouts'
     target = 'layouts'
+
+[params.modules.cookieyes]
+  integration = "critical"
