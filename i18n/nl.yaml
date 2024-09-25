@@ -5,3 +5,5 @@
   translation: "Cookies"
 - id: cookieSettings
   translation: "Cookie-instellingen"
+- id: revisitConsent
+  translation: "Herzien cookie-instellingen"

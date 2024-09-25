@@ -5,3 +5,5 @@
   translation: "Cookies"
 - id: cookieSettings
   translation: "Paramètres des cookies"
+- id: revisitConsent
+  translation: "Revoir le consentement"
