@@ -4,5 +4,7 @@ github.com/gethinode/mod-cookieyes v1.0.2 h1:WL9sjpYKjkV+jRKIrm6H82UpthQjFksvKGp
 github.com/gethinode/mod-cookieyes v1.0.2/go.mod h1:VrBUKm5apop6KIb+R8eRqvlf3AAPnv5aMajL0RorIjY=
 github.com/gethinode/mod-cookieyes/v2 v2.0.2 h1:VNeQbUWX8LshzRto1/t05aMzV3w+hYDV5AIbB4TfvvU=
 github.com/gethinode/mod-cookieyes/v2 v2.0.2/go.mod h1:tULb7D7CoTycGUyL7ryqHJKaX11XuL2SN+XwP7/DI0Y=
+github.com/gethinode/mod-cookieyes/v2 v2.0.4 h1:QgYSD3S23351e7xEeQb+Mon+e+I6RbnnrTyvpxBST1A=
+github.com/gethinode/mod-cookieyes/v2 v2.0.4/go.mod h1:tULb7D7CoTycGUyL7ryqHJKaX11XuL2SN+XwP7/DI0Y=
 github.com/gethinode/mod-utils/v2 v2.8.1 h1:u7sFbgJ5sBEMYC/GwcMRyjRAd5NxTjBnbld5b0V5n98=
 github.com/gethinode/mod-utils/v2 v2.8.1/go.mod h1:GTYeknoLujNjfDxI+V9Dcug26CYJSTJ0B/U2dagw9oY=
