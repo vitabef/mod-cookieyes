@@ -1,6 +1,6 @@
 {
   "name": "@gethinode/mod-cookieyes",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "A Hugo module to integrate CookieYes with your Hinode site",
   "keywords": [
     "hugo",
