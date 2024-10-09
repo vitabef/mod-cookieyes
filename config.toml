@@ -15,3 +15,12 @@
 
 [params.modules.cookieyes]
   integration = "critical"
+
+[params.modules.cookieyes.csp]
+  script-src = ["cdn-cookieyes.com"]
+  connect-src = [
+    "*.cookieyes.com",
+    "cdn-cookieyes.com"
+  ]
+  img-src = ["cdn-cookieyes.com"]
+  style-src = ["'unsafe-inline'"]
